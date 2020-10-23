@@ -1,12 +1,8 @@
 ﻿using Set;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SetWinForms
@@ -35,6 +31,8 @@ namespace SetWinForms
 
         private void btnUnion_Click(object sender, EventArgs e)
         {
+            if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
+                return;
             this.lblSetAnswerName.Text = "Union";
 
 
@@ -53,6 +51,8 @@ namespace SetWinForms
 
         private void btnIntersection_Click(object sender, EventArgs e)
         {
+            if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
+                return;
             this.lblSetAnswerName.Text = "Intersection";
 
             Set<int> set1;
@@ -70,6 +70,8 @@ namespace SetWinForms
 
         private void btnDifference_Click(object sender, EventArgs e)
         {
+            if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
+                return;
             this.lblSetAnswerName.Text = "Difference (A \\ B)";
 
             Set<int> set1;
@@ -87,6 +89,8 @@ namespace SetWinForms
 
         private void btnSubSet_Click(object sender, EventArgs e)
         {
+            if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
+                return;
             this.lblSetAnswerName.Text = "A SubSet B";
 
             Set<int> set1;
@@ -102,6 +106,8 @@ namespace SetWinForms
 
         private void btnSymmetricDifference_Click(object sender, EventArgs e)
         {
+            if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
+                return;
             this.lblSetAnswerName.Text = "Symmetric Difference";
 
             Set<int> set1;
@@ -130,6 +136,29 @@ namespace SetWinForms
             this.txtBoxSet2.Text = "";
             this.lblSetAnswerName.Text = "Action";
             this.lblSetAnswer.Text = ""; 
+        }
+
+        private void btnRU_Click(object sender, EventArgs e)
+        {
+            this.btnUnion.Text = "Объединение";
+            this.btnIntersection.Text = "Пересечение";
+            this.btnDifference.Text = "Разность";
+            this.btnSubSet.Text = "Подмножество";
+            this.btnSymmetricDifference.Text = "Симетрическая Разность";
+            this.btnSwap.Text = "Свап ))";
+            this.btnReset.Text = "Сбросить";
+        }
+
+        private void btnENG_Click(object sender, EventArgs e)
+        {
+            this.btnUnion.Text = "Union";
+            this.btnIntersection.Text = "Intersection";
+            this.btnDifference.Text = "Difference";
+            this.btnSubSet.Text = "SubSet";
+            this.btnSymmetricDifference.Text = "Symmetric Difference";
+            this.btnSwap.Text = "Swap";
+            this.btnReset.Text = "Reset";
+
         }
     }
 }

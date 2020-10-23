@@ -41,6 +41,8 @@
             this.btnSwap = new System.Windows.Forms.Button();
             this.lblSetAnswer = new System.Windows.Forms.Label();
             this.lblSetAnswerName = new System.Windows.Forms.Label();
+            this.btnRU = new System.Windows.Forms.Button();
+            this.btnENG = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblSet1
@@ -85,7 +87,7 @@
             // 
             this.btnUnion.Location = new System.Drawing.Point(12, 173);
             this.btnUnion.Name = "btnUnion";
-            this.btnUnion.Size = new System.Drawing.Size(75, 23);
+            this.btnUnion.Size = new System.Drawing.Size(111, 23);
             this.btnUnion.TabIndex = 4;
             this.btnUnion.Text = "Union";
             this.btnUnion.UseVisualStyleBackColor = true;
@@ -93,9 +95,9 @@
             // 
             // btnIntersection
             // 
-            this.btnIntersection.Location = new System.Drawing.Point(122, 173);
+            this.btnIntersection.Location = new System.Drawing.Point(123, 173);
             this.btnIntersection.Name = "btnIntersection";
-            this.btnIntersection.Size = new System.Drawing.Size(75, 23);
+            this.btnIntersection.Size = new System.Drawing.Size(108, 23);
             this.btnIntersection.TabIndex = 5;
             this.btnIntersection.Text = "Intersection";
             this.btnIntersection.UseVisualStyleBackColor = true;
@@ -103,9 +105,9 @@
             // 
             // btnSubSet
             // 
-            this.btnSubSet.Location = new System.Drawing.Point(122, 202);
+            this.btnSubSet.Location = new System.Drawing.Point(123, 202);
             this.btnSubSet.Name = "btnSubSet";
-            this.btnSubSet.Size = new System.Drawing.Size(75, 23);
+            this.btnSubSet.Size = new System.Drawing.Size(108, 23);
             this.btnSubSet.TabIndex = 7;
             this.btnSubSet.Text = "SubSet";
             this.btnSubSet.UseVisualStyleBackColor = true;
@@ -115,7 +117,7 @@
             // 
             this.btnDifference.Location = new System.Drawing.Point(12, 202);
             this.btnDifference.Name = "btnDifference";
-            this.btnDifference.Size = new System.Drawing.Size(75, 23);
+            this.btnDifference.Size = new System.Drawing.Size(111, 23);
             this.btnDifference.TabIndex = 6;
             this.btnDifference.Text = "Difference";
             this.btnDifference.UseVisualStyleBackColor = true;
@@ -125,7 +127,7 @@
             // 
             this.btnReset.Location = new System.Drawing.Point(12, 289);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(185, 23);
+            this.btnReset.Size = new System.Drawing.Size(219, 23);
             this.btnReset.TabIndex = 9;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -135,7 +137,7 @@
             // 
             this.btnSymmetricDifference.Location = new System.Drawing.Point(12, 231);
             this.btnSymmetricDifference.Name = "btnSymmetricDifference";
-            this.btnSymmetricDifference.Size = new System.Drawing.Size(185, 23);
+            this.btnSymmetricDifference.Size = new System.Drawing.Size(219, 23);
             this.btnSymmetricDifference.TabIndex = 8;
             this.btnSymmetricDifference.Text = "Symmetric Difference";
             this.btnSymmetricDifference.UseVisualStyleBackColor = true;
@@ -145,7 +147,7 @@
             // 
             this.btnSwap.Location = new System.Drawing.Point(12, 260);
             this.btnSwap.Name = "btnSwap";
-            this.btnSwap.Size = new System.Drawing.Size(185, 23);
+            this.btnSwap.Size = new System.Drawing.Size(219, 23);
             this.btnSwap.TabIndex = 10;
             this.btnSwap.Text = "Swap";
             this.btnSwap.UseVisualStyleBackColor = true;
@@ -167,16 +169,38 @@
             this.lblSetAnswerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblSetAnswerName.Location = new System.Drawing.Point(249, 17);
             this.lblSetAnswerName.Name = "lblSetAnswerName";
-            this.lblSetAnswerName.Size = new System.Drawing.Size(100, 23);
+            this.lblSetAnswerName.Size = new System.Drawing.Size(195, 23);
             this.lblSetAnswerName.TabIndex = 12;
             this.lblSetAnswerName.Text = "Action";
             this.lblSetAnswerName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnRU
+            // 
+            this.btnRU.Location = new System.Drawing.Point(12, 318);
+            this.btnRU.Name = "btnRU";
+            this.btnRU.Size = new System.Drawing.Size(75, 23);
+            this.btnRU.TabIndex = 13;
+            this.btnRU.Text = "RU";
+            this.btnRU.UseVisualStyleBackColor = true;
+            this.btnRU.Click += new System.EventHandler(this.btnRU_Click);
+            // 
+            // btnENG
+            // 
+            this.btnENG.Location = new System.Drawing.Point(156, 318);
+            this.btnENG.Name = "btnENG";
+            this.btnENG.Size = new System.Drawing.Size(75, 23);
+            this.btnENG.TabIndex = 14;
+            this.btnENG.Text = "ENG";
+            this.btnENG.UseVisualStyleBackColor = true;
+            this.btnENG.Click += new System.EventHandler(this.btnENG_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(655, 330);
+            this.ClientSize = new System.Drawing.Size(655, 346);
+            this.Controls.Add(this.btnENG);
+            this.Controls.Add(this.btnRU);
             this.Controls.Add(this.lblSetAnswerName);
             this.Controls.Add(this.lblSetAnswer);
             this.Controls.Add(this.btnSwap);
@@ -212,6 +236,8 @@
         private System.Windows.Forms.Button btnSwap;
         private System.Windows.Forms.Label lblSetAnswer;
         private System.Windows.Forms.Label lblSetAnswerName;
+        private System.Windows.Forms.Button btnRU;
+        private System.Windows.Forms.Button btnENG;
     }
 }
 
