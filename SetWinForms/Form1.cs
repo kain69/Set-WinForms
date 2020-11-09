@@ -18,15 +18,25 @@ namespace SetWinForms
         {
             string s1 = this.txtBoxSet1.Text;
             string s2 = this.txtBoxSet2.Text;
+            set1 = new Set<int>();
+            set2 = new Set<int>();
 
-            List<int> list;
-            list = s1.Split(' ').Select(Int32.Parse).ToList();
-            set1 = new Set<int>(list);
+            List<int> list = new List<int>();
+            try
+            {
+                list = s1.Split(' ').Select(Int32.Parse).ToList();
+                set1 = new Set<int>(list);
 
-            list.Clear();
+                list.Clear();
 
-            list = s2.Split(' ').Select(Int32.Parse).ToList();
-            set2 = new Set<int>(list);
+                list = s2.Split(' ').Select(Int32.Parse).ToList();
+                set2 = new Set<int>(list);
+            }
+            catch
+            {
+                this.lblSetAnswer.Text = "Неверный ввод";
+                //throw new Exception("Неверный ввод");
+            }  
         }
 
         private void btnUnion_Click(object sender, EventArgs e)
@@ -46,7 +56,8 @@ namespace SetWinForms
             {
                 s3 += item.ToString() + " ";
             }
-            this.lblSetAnswer.Text = s3;
+            if (this.lblSetAnswer.Text != "Неверный ввод")
+                this.lblSetAnswer.Text = s3;
         }
 
         private void btnIntersection_Click(object sender, EventArgs e)
@@ -65,7 +76,8 @@ namespace SetWinForms
             {
                 s3 += item.ToString() + " ";
             }
-            this.lblSetAnswer.Text = s3;
+            if (this.lblSetAnswer.Text != "Неверный ввод") 
+                this.lblSetAnswer.Text = s3;
         }
 
         private void btnDifference_Click(object sender, EventArgs e)
@@ -84,7 +96,8 @@ namespace SetWinForms
             {
                 s3 += item.ToString() + " ";
             }
-            this.lblSetAnswer.Text = s3;
+            if (this.lblSetAnswer.Text != "Неверный ввод")
+                this.lblSetAnswer.Text = s3;
         }
 
         private void btnSubSet_Click(object sender, EventArgs e)
@@ -98,10 +111,13 @@ namespace SetWinForms
 
             this.StringToSet(out set1, out set2);
 
-            if(set1.SubSet(set2))
-                this.lblSetAnswer.Text = "True";
-            else
-                this.lblSetAnswer.Text = "False";
+            if (this.lblSetAnswer.Text != "Неверный ввод")
+            {
+                if (set1.SubSet(set2))
+                    this.lblSetAnswer.Text = "True";
+                else
+                    this.lblSetAnswer.Text = "False";
+            }
         }
 
         private void btnSymmetricDifference_Click(object sender, EventArgs e)
@@ -120,7 +136,8 @@ namespace SetWinForms
             {
                 s3 += item.ToString() + " ";
             }
-            this.lblSetAnswer.Text = s3;
+            if (this.lblSetAnswer.Text != "Неверный ввод")
+                this.lblSetAnswer.Text = s3;
         }
 
         private void btnSwap_Click(object sender, EventArgs e)
