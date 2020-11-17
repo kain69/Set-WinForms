@@ -117,4 +117,45 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblSet1.Text" xml:space="preserve">
+    <value>Введите множество А:</value>
+  </data>
+  <data name="lblSet2.Text" xml:space="preserve">
+    <value>Введите множество B:</value>
+  </data>
+  <data name="btnUnion.Text" xml:space="preserve">
+    <value>Объединение</value>
+  </data>
+  <data name="btnIntersection.Text" xml:space="preserve">
+    <value>Пересечение</value>
+  </data>
+  <data name="btnSubSet.Text" xml:space="preserve">
+    <value>Подмножество</value>
+  </data>
+  <data name="btnDifference.Text" xml:space="preserve">
+    <value>Разность</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="btnSymmetricDifference.Text" xml:space="preserve">
+    <value>Симметрическая разность</value>
+  </data>
+  <data name="btnSwap.Text" xml:space="preserve">
+    <value>Свап))</value>
+  </data>
+  <data name="lblSetAnswerName.Text" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Множества вводятся через пробел и корректный ввод - любые символы:
+1 2 3 4
+а б в г
+а б в 1 2 3
+a b c d e 1
+a b c а б в</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Множества | Кармазин Влад ФИТ-3</value>
+  </data>
 </root>

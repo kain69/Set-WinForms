@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lblSet1 = new System.Windows.Forms.Label();
             this.lblSet2 = new System.Windows.Forms.Label();
             this.txtBoxSet1 = new System.Windows.Forms.TextBox();
@@ -48,109 +49,72 @@
             // 
             // lblSet1
             // 
-            this.lblSet1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSet1.Location = new System.Drawing.Point(12, 6);
+            resources.ApplyResources(this.lblSet1, "lblSet1");
             this.lblSet1.Name = "lblSet1";
-            this.lblSet1.Size = new System.Drawing.Size(185, 45);
-            this.lblSet1.TabIndex = 0;
-            this.lblSet1.Text = "Задайте множество А: ";
-            this.lblSet1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSet2
             // 
-            this.lblSet2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSet2.Location = new System.Drawing.Point(12, 80);
+            resources.ApplyResources(this.lblSet2, "lblSet2");
             this.lblSet2.Name = "lblSet2";
-            this.lblSet2.Size = new System.Drawing.Size(185, 45);
-            this.lblSet2.TabIndex = 1;
-            this.lblSet2.Text = "Задайте множество B: ";
-            this.lblSet2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtBoxSet1
             // 
-            this.txtBoxSet1.Location = new System.Drawing.Point(12, 57);
+            resources.ApplyResources(this.txtBoxSet1, "txtBoxSet1");
             this.txtBoxSet1.Name = "txtBoxSet1";
-            this.txtBoxSet1.Size = new System.Drawing.Size(185, 20);
-            this.txtBoxSet1.TabIndex = 2;
             this.txtBoxSet1.TabStop = false;
-            this.txtBoxSet1.Text = "1 2 3 4";
             // 
             // txtBoxSet2
             // 
-            this.txtBoxSet2.Location = new System.Drawing.Point(12, 128);
+            resources.ApplyResources(this.txtBoxSet2, "txtBoxSet2");
             this.txtBoxSet2.Name = "txtBoxSet2";
-            this.txtBoxSet2.Size = new System.Drawing.Size(185, 20);
-            this.txtBoxSet2.TabIndex = 3;
             this.txtBoxSet2.TabStop = false;
-            this.txtBoxSet2.Text = "4 5 6 7";
             // 
             // btnUnion
             // 
-            this.btnUnion.Location = new System.Drawing.Point(12, 173);
+            resources.ApplyResources(this.btnUnion, "btnUnion");
             this.btnUnion.Name = "btnUnion";
-            this.btnUnion.Size = new System.Drawing.Size(111, 23);
-            this.btnUnion.TabIndex = 4;
-            this.btnUnion.Text = "Union";
             this.btnUnion.UseVisualStyleBackColor = true;
             this.btnUnion.Click += new System.EventHandler(this.btnUnion_Click);
             // 
             // btnIntersection
             // 
-            this.btnIntersection.Location = new System.Drawing.Point(123, 173);
+            resources.ApplyResources(this.btnIntersection, "btnIntersection");
             this.btnIntersection.Name = "btnIntersection";
-            this.btnIntersection.Size = new System.Drawing.Size(108, 23);
-            this.btnIntersection.TabIndex = 5;
-            this.btnIntersection.Text = "Intersection";
             this.btnIntersection.UseVisualStyleBackColor = true;
             this.btnIntersection.Click += new System.EventHandler(this.btnIntersection_Click);
             // 
             // btnSubSet
             // 
-            this.btnSubSet.Location = new System.Drawing.Point(123, 202);
+            resources.ApplyResources(this.btnSubSet, "btnSubSet");
             this.btnSubSet.Name = "btnSubSet";
-            this.btnSubSet.Size = new System.Drawing.Size(108, 23);
-            this.btnSubSet.TabIndex = 7;
-            this.btnSubSet.Text = "SubSet";
             this.btnSubSet.UseVisualStyleBackColor = true;
             this.btnSubSet.Click += new System.EventHandler(this.btnSubSet_Click);
             // 
             // btnDifference
             // 
-            this.btnDifference.Location = new System.Drawing.Point(12, 202);
+            resources.ApplyResources(this.btnDifference, "btnDifference");
             this.btnDifference.Name = "btnDifference";
-            this.btnDifference.Size = new System.Drawing.Size(111, 23);
-            this.btnDifference.TabIndex = 6;
-            this.btnDifference.Text = "Difference";
             this.btnDifference.UseVisualStyleBackColor = true;
             this.btnDifference.Click += new System.EventHandler(this.btnDifference_Click);
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(12, 289);
+            resources.ApplyResources(this.btnReset, "btnReset");
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(219, 23);
-            this.btnReset.TabIndex = 9;
-            this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnSymmetricDifference
             // 
-            this.btnSymmetricDifference.Location = new System.Drawing.Point(12, 231);
+            resources.ApplyResources(this.btnSymmetricDifference, "btnSymmetricDifference");
             this.btnSymmetricDifference.Name = "btnSymmetricDifference";
-            this.btnSymmetricDifference.Size = new System.Drawing.Size(219, 23);
-            this.btnSymmetricDifference.TabIndex = 8;
-            this.btnSymmetricDifference.Text = "Symmetric Difference";
             this.btnSymmetricDifference.UseVisualStyleBackColor = true;
             this.btnSymmetricDifference.Click += new System.EventHandler(this.btnSymmetricDifference_Click);
             // 
             // btnSwap
             // 
-            this.btnSwap.Location = new System.Drawing.Point(12, 260);
+            resources.ApplyResources(this.btnSwap, "btnSwap");
             this.btnSwap.Name = "btnSwap";
-            this.btnSwap.Size = new System.Drawing.Size(219, 23);
-            this.btnSwap.TabIndex = 10;
-            this.btnSwap.Text = "Swap";
             this.btnSwap.UseVisualStyleBackColor = true;
             this.btnSwap.Click += new System.EventHandler(this.btnSwap_Click);
             // 
@@ -158,58 +122,40 @@
             // 
             this.lblSetAnswer.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblSetAnswer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSetAnswer.Location = new System.Drawing.Point(249, 40);
+            resources.ApplyResources(this.lblSetAnswer, "lblSetAnswer");
             this.lblSetAnswer.Name = "lblSetAnswer";
-            this.lblSetAnswer.Size = new System.Drawing.Size(369, 52);
-            this.lblSetAnswer.TabIndex = 11;
-            this.lblSetAnswer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSetAnswerName
             // 
             this.lblSetAnswerName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblSetAnswerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSetAnswerName.Location = new System.Drawing.Point(249, 17);
+            resources.ApplyResources(this.lblSetAnswerName, "lblSetAnswerName");
             this.lblSetAnswerName.Name = "lblSetAnswerName";
-            this.lblSetAnswerName.Size = new System.Drawing.Size(195, 23);
-            this.lblSetAnswerName.TabIndex = 12;
-            this.lblSetAnswerName.Text = "Action";
-            this.lblSetAnswerName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRU
             // 
-            this.btnRU.Location = new System.Drawing.Point(12, 318);
+            resources.ApplyResources(this.btnRU, "btnRU");
             this.btnRU.Name = "btnRU";
-            this.btnRU.Size = new System.Drawing.Size(75, 23);
-            this.btnRU.TabIndex = 13;
-            this.btnRU.Text = "RU";
             this.btnRU.UseVisualStyleBackColor = true;
             this.btnRU.Click += new System.EventHandler(this.btnRU_Click);
             // 
             // btnENG
             // 
-            this.btnENG.Location = new System.Drawing.Point(156, 318);
+            resources.ApplyResources(this.btnENG, "btnENG");
             this.btnENG.Name = "btnENG";
-            this.btnENG.Size = new System.Drawing.Size(75, 23);
-            this.btnENG.TabIndex = 14;
-            this.btnENG.Text = "ENG";
             this.btnENG.UseVisualStyleBackColor = true;
             this.btnENG.Click += new System.EventHandler(this.btnENG_Click);
             // 
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Location = new System.Drawing.Point(249, 100);
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(369, 125);
-            this.richTextBox1.TabIndex = 15;
-            this.richTextBox1.Text = "Множества задаются через пробел и корректный ввод - любые символы:\n1 2 3 4 \nа б в" +
-    " г\nа б в 1 2 3\na b c d e 1\nа б в a b c";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(655, 346);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnENG);
             this.Controls.Add(this.btnRU);
@@ -228,7 +174,6 @@
             this.Controls.Add(this.lblSet1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
-            this.Text = "Set | Кармазин Влад ФИТ-3";
             this.ResumeLayout(false);
             this.PerformLayout();
 

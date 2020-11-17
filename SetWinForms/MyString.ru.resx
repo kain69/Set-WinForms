@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="Difference" xml:space="preserve">
+    <value>Разность (A \\ B)</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Некорректный ввод</value>
+  </data>
+  <data name="Intersection" xml:space="preserve">
+    <value>Пересечение</value>
+  </data>
+  <data name="SubSet" xml:space="preserve">
+    <value>A Подмножество B</value>
+  </data>
+  <data name="SymDifference" xml:space="preserve">
+    <value>Симметрическая разность</value>
+  </data>
+  <data name="Union" xml:space="preserve">
+    <value>Объединение</value>
+  </data>
 </root>

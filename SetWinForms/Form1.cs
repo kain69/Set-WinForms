@@ -2,16 +2,24 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
 using System.Windows.Forms;
 
 namespace SetWinForms
 {
     public partial class Form1 : Form
     {
+        ResourceManager rm = new ResourceManager("SetWinForms.MyString", Assembly.GetExecutingAssembly());
+
         public Form1()
         {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+            System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
             InitializeComponent();
+            
         }
 
         private bool StringToSet(out Set<string> set1, out Set<string> set2)
@@ -34,9 +42,8 @@ namespace SetWinForms
             }
             catch
             {
-                this.lblSetAnswer.Text = "Неверный ввод";
+                this.lblSetAnswer.Text = rm.GetString("Error");
                 return false;
-                //throw new Exception("Неверный ввод");
             }
 
             return true;
@@ -46,7 +53,7 @@ namespace SetWinForms
         {
             if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
                 return;
-            this.lblSetAnswerName.Text = "Union";
+            this.lblSetAnswerName.Text = rm.GetString("Union");
 
 
             Set<string> set1;
@@ -69,7 +76,7 @@ namespace SetWinForms
         {
             if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
                 return;
-            this.lblSetAnswerName.Text = "Intersection";
+            this.lblSetAnswerName.Text = rm.GetString("Intersection");
 
             Set<string> set1;
             Set<string> set2;
@@ -89,7 +96,7 @@ namespace SetWinForms
         {
             if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
                 return;
-            this.lblSetAnswerName.Text = "Difference (A \\ B)";
+            this.lblSetAnswerName.Text = rm.GetString("Difference");
 
             Set<string> set1;
             Set<string> set2;
@@ -109,7 +116,7 @@ namespace SetWinForms
         {
             if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
                 return;
-            this.lblSetAnswerName.Text = "A SubSet B";
+            this.lblSetAnswerName.Text = rm.GetString("SubSet");
 
             Set<string> set1;
             Set<string> set2;
@@ -127,7 +134,7 @@ namespace SetWinForms
         {
             if (this.txtBoxSet1.Text == "" || this.txtBoxSet2.Text == "")
                 return;
-            this.lblSetAnswerName.Text = "Symmetric Difference";
+            this.lblSetAnswerName.Text = rm.GetString("SymDifference");
 
             Set<string> set1;
             Set<string> set2;
@@ -154,30 +161,32 @@ namespace SetWinForms
         {
             this.txtBoxSet1.Text = "";
             this.txtBoxSet2.Text = "";
-            this.lblSetAnswerName.Text = "Action";
+            this.lblSetAnswerName.Text = rm.GetString("Action");
             this.lblSetAnswer.Text = ""; 
         }
 
         private void btnRU_Click(object sender, EventArgs e)
         {
-            this.btnUnion.Text = "Объединение";
-            this.btnIntersection.Text = "Пересечение";
-            this.btnDifference.Text = "Разность";
-            this.btnSubSet.Text = "Подмножество";
-            this.btnSymmetricDifference.Text = "Симетрическая Разность";
-            this.btnSwap.Text = "Свап ))";
-            this.btnReset.Text = "Сбросить";
+            if (System.Threading.Thread.CurrentThread.CurrentUICulture.Name != "ru")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru");
+                System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("ru");
+                Properties.Settings.Default.Language = "ru";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
         }
 
         private void btnENG_Click(object sender, EventArgs e)
         {
-            this.btnUnion.Text = "Union";
-            this.btnIntersection.Text = "Intersection";
-            this.btnDifference.Text = "Difference";
-            this.btnSubSet.Text = "SubSet";
-            this.btnSymmetricDifference.Text = "Symmetric Difference";
-            this.btnSwap.Text = "Swap";
-            this.btnReset.Text = "Reset";
+            if (System.Threading.Thread.CurrentThread.CurrentUICulture.Name != "en")
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+                System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en");
+                Properties.Settings.Default.Language = "en";
+                Properties.Settings.Default.Save();
+                Application.Restart();
+            }
 
         }
     }
