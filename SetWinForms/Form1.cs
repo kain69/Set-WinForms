@@ -14,23 +14,23 @@ namespace SetWinForms
             InitializeComponent();
         }
 
-        private bool StringToSet(out Set<int> set1, out Set<int> set2)
+        private bool StringToSet(out Set<string> set1, out Set<string> set2)
         {
             string s1 = this.txtBoxSet1.Text;
             string s2 = this.txtBoxSet2.Text;
-            set1 = new Set<int>();
-            set2 = new Set<int>();
+            set1 = new Set<string>();
+            set2 = new Set<string>();
 
-            List<int> list = new List<int>();
+            List<string> list;
             try
             {
-                list = s1.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries).Select(Int32.Parse).ToList();
-                set1 = new Set<int>(list);
+                list = s1.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries).ToList();
+                set1 = new Set<string>(list);
 
                 list.Clear();
 
-                list = s2.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries).Select(Int32.Parse).ToList();
-                set2 = new Set<int>(list);
+                list = s2.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries).ToList();
+                set2 = new Set<string>(list);
             }
             catch
             {
@@ -49,13 +49,13 @@ namespace SetWinForms
             this.lblSetAnswerName.Text = "Union";
 
 
-            Set<int> set1;
-            Set<int> set2;
+            Set<string> set1;
+            Set<string> set2;
 
             if (this.StringToSet(out set1, out set2))
             {
                 string s3 = "";
-                foreach (int item in set1.Union(set2))
+                foreach (var item in set1.Union(set2))
                 {
                     s3 += item.ToString() + " ";
                 }
@@ -71,13 +71,13 @@ namespace SetWinForms
                 return;
             this.lblSetAnswerName.Text = "Intersection";
 
-            Set<int> set1;
-            Set<int> set2;
+            Set<string> set1;
+            Set<string> set2;
 
             if (this.StringToSet(out set1, out set2))
             {
                 string s3 = "";
-                foreach (int item in set1.Intersection(set2))
+                foreach (var item in set1.Intersection(set2))
                 {
                     s3 += item.ToString() + " ";
                 }
@@ -91,13 +91,13 @@ namespace SetWinForms
                 return;
             this.lblSetAnswerName.Text = "Difference (A \\ B)";
 
-            Set<int> set1;
-            Set<int> set2;
+            Set<string> set1;
+            Set<string> set2;
 
             if (this.StringToSet(out set1, out set2))
             {
                 string s3 = "";
-                foreach (int item in set1.Difference(set2))
+                foreach (var item in set1.Difference(set2))
                 {
                     s3 += item.ToString() + " ";
                 }
@@ -111,8 +111,8 @@ namespace SetWinForms
                 return;
             this.lblSetAnswerName.Text = "A SubSet B";
 
-            Set<int> set1;
-            Set<int> set2;
+            Set<string> set1;
+            Set<string> set2;
 
             if (this.StringToSet(out set1, out set2))
             {
@@ -129,13 +129,13 @@ namespace SetWinForms
                 return;
             this.lblSetAnswerName.Text = "Symmetric Difference";
 
-            Set<int> set1;
-            Set<int> set2;
+            Set<string> set1;
+            Set<string> set2;
 
             if (this.StringToSet(out set1, out set2))
             {
                 string s3 = "";
-                foreach (int item in set1.SymmetricDifference(set2))
+                foreach (var item in set1.SymmetricDifference(set2))
                 {
                     s3 += item.ToString() + " ";
                 }

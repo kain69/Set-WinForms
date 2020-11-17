@@ -43,6 +43,7 @@
             this.lblSetAnswerName = new System.Windows.Forms.Label();
             this.btnRU = new System.Windows.Forms.Button();
             this.btnENG = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // lblSet1
@@ -194,11 +195,22 @@
             this.btnENG.UseVisualStyleBackColor = true;
             this.btnENG.Click += new System.EventHandler(this.btnENG_Click);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1.Location = new System.Drawing.Point(249, 100);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(369, 125);
+            this.richTextBox1.TabIndex = 15;
+            this.richTextBox1.Text = "Множества задаются через пробел и корректный ввод - любые символы:\n1 2 3 4 \nа б в" +
+    " г\nа б в 1 2 3\na b c d e 1\nа б в a b c";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(655, 346);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnENG);
             this.Controls.Add(this.btnRU);
             this.Controls.Add(this.lblSetAnswerName);
@@ -214,6 +226,7 @@
             this.Controls.Add(this.txtBoxSet1);
             this.Controls.Add(this.lblSet2);
             this.Controls.Add(this.lblSet1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Set | Кармазин Влад ФИТ-3";
             this.ResumeLayout(false);
@@ -238,6 +251,7 @@
         private System.Windows.Forms.Label lblSetAnswerName;
         private System.Windows.Forms.Button btnRU;
         private System.Windows.Forms.Button btnENG;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
