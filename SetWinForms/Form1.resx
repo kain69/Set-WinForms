@@ -117,106 +117,308 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblSet1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblSet1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 6</value>
-  </data>
-  <data name="lblSet1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 45</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblSet1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblSet1.Text" xml:space="preserve">
-    <value>Enter Set A:</value>
-  </data>
-  <data name="lblSet1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblSet1.Name" xml:space="preserve">
-    <value>lblSet1</value>
-  </data>
-  <data name="&gt;&gt;lblSet1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSet1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnSymmetricDifference.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblSet1.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
   </data>
-  <data name="lblSet2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblSet2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 80</value>
-  </data>
-  <data name="lblSet2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 45</value>
-  </data>
-  <data name="lblSet2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 23</value>
   </data>
   <data name="lblSet2.Text" xml:space="preserve">
     <value>Enter Set B:</value>
   </data>
-  <data name="lblSet2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="&gt;&gt;btnSubSet.Name" xml:space="preserve">
+    <value>btnSubSet</value>
   </data>
-  <data name="&gt;&gt;lblSet2.Name" xml:space="preserve">
-    <value>lblSet2</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSubSet.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;lblSet2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnDifference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblSet2.Parent" xml:space="preserve">
+  <data name="btnIntersection.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnDifference.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblSet2.ZOrder" xml:space="preserve">
-    <value>14</value>
   </data>
   <data name="txtBoxSet1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 57</value>
   </data>
-  <data name="txtBoxSet1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 20</value>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtBoxSet1.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnSubSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 23</value>
+  </data>
+  <data name="btnSymmetricDifference.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnDifference.Name" xml:space="preserve">
+    <value>btnDifference</value>
+  </data>
+  <data name="lblSet1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 45</value>
+  </data>
+  <data name="&gt;&gt;btnRU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSymmetricDifference.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnENG.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSetAnswer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblSetAnswerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 17</value>
+  </data>
+  <data name="&gt;&gt;btnSwap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRU.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSubSet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSwap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 23</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="txtBoxSet1.Text" xml:space="preserve">
     <value>1 2 3 4</value>
   </data>
-  <data name="&gt;&gt;txtBoxSet1.Name" xml:space="preserve">
-    <value>txtBoxSet1</value>
+  <data name="lblSetAnswerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 23</value>
   </data>
-  <data name="&gt;&gt;txtBoxSet1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 202</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 100</value>
+  </data>
+  <data name="&gt;&gt;btnSubSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswerName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnUnion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 173</value>
+  </data>
+  <data name="&gt;&gt;btnUnion.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;txtBoxSet1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="btnIntersection.Text" xml:space="preserve">
+    <value>Intersection</value>
+  </data>
+  <data name="lblSet1.Text" xml:space="preserve">
+    <value>Enter Set A:</value>
+  </data>
+  <data name="btnRU.Text" xml:space="preserve">
+    <value>RU</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;btnUnion.Name" xml:space="preserve">
+    <value>btnUnion</value>
+  </data>
+  <data name="&gt;&gt;txtBoxSet1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnIntersection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 173</value>
+  </data>
+  <data name="btnDifference.Text" xml:space="preserve">
+    <value>Difference</value>
+  </data>
   <data name="&gt;&gt;txtBoxSet1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnUnion.Text" xml:space="preserve">
+    <value>Union</value>
+  </data>
+  <data name="lblSet1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="&gt;&gt;btnDifference.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnENG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBoxSet1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 289</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnUnion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSet1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSetAnswer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 52</value>
+  </data>
+  <data name="&gt;&gt;btnENG.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtBoxSet2.Text" xml:space="preserve">
+    <value>4 5 6 7</value>
+  </data>
+  <data name="&gt;&gt;lblSet2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="btnSubSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 202</value>
+  </data>
+  <data name="&gt;&gt;btnIntersection.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSet1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;btnIntersection.Name" xml:space="preserve">
+    <value>btnIntersection</value>
+  </data>
+  <data name="&gt;&gt;lblSet1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSet2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnRU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUnion.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSet2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;btnSymmetricDifference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSet1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnSwap.Text" xml:space="preserve">
+    <value>Swap</value>
+  </data>
+  <data name="lblSet2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 80</value>
+  </data>
+  <data name="btnUnion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblSet2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="btnRU.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="txtBoxSet2.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 128</value>
   </data>
+  <data name="&gt;&gt;btnIntersection.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblSetAnswerName.Text" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="&gt;&gt;btnENG.Name" xml:space="preserve">
+    <value>btnENG</value>
+  </data>
   <data name="txtBoxSet2.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 20</value>
   </data>
-  <data name="txtBoxSet2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;btnSwap.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="txtBoxSet2.Text" xml:space="preserve">
-    <value>4 5 6 7</value>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
   </data>
-  <data name="&gt;&gt;txtBoxSet2.Name" xml:space="preserve">
-    <value>txtBoxSet2</value>
+  <data name="btnSymmetricDifference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 231</value>
+  </data>
+  <data name="&gt;&gt;lblSet2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSetAnswerName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblSetAnswer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 40</value>
+  </data>
+  <data name="&gt;&gt;btnSubSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSwap.Name" xml:space="preserve">
+    <value>btnSwap</value>
+  </data>
+  <data name="&gt;&gt;btnRU.Name" xml:space="preserve">
+    <value>btnRU</value>
+  </data>
+  <data name="btnDifference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="lblSetAnswer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBoxSet1.Name" xml:space="preserve">
+    <value>txtBoxSet1</value>
   </data>
   <data name="&gt;&gt;txtBoxSet2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -224,284 +426,14 @@
   <data name="&gt;&gt;txtBoxSet2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBoxSet2.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="lblSet2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 45</value>
   </data>
-  <data name="btnUnion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 173</value>
+  <data name="&gt;&gt;lblSet1.Name" xml:space="preserve">
+    <value>lblSet1</value>
   </data>
-  <data name="btnUnion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="btnUnion.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnUnion.Text" xml:space="preserve">
-    <value>Union</value>
-  </data>
-  <data name="&gt;&gt;btnUnion.Name" xml:space="preserve">
-    <value>btnUnion</value>
-  </data>
-  <data name="&gt;&gt;btnUnion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnUnion.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnUnion.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="btnIntersection.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 173</value>
-  </data>
-  <data name="btnIntersection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 23</value>
-  </data>
-  <data name="btnIntersection.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnIntersection.Text" xml:space="preserve">
-    <value>Intersection</value>
-  </data>
-  <data name="&gt;&gt;btnIntersection.Name" xml:space="preserve">
-    <value>btnIntersection</value>
-  </data>
-  <data name="&gt;&gt;btnIntersection.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnIntersection.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnIntersection.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="btnSubSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 202</value>
-  </data>
-  <data name="btnSubSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 23</value>
-  </data>
-  <data name="btnSubSet.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnSubSet.Text" xml:space="preserve">
-    <value>SubSet</value>
-  </data>
-  <data name="&gt;&gt;btnSubSet.Name" xml:space="preserve">
-    <value>btnSubSet</value>
-  </data>
-  <data name="&gt;&gt;btnSubSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSubSet.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnSubSet.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnDifference.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 202</value>
-  </data>
-  <data name="btnDifference.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="btnDifference.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btnDifference.Text" xml:space="preserve">
-    <value>Difference</value>
-  </data>
-  <data name="&gt;&gt;btnDifference.Name" xml:space="preserve">
-    <value>btnDifference</value>
-  </data>
-  <data name="&gt;&gt;btnDifference.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDifference.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnDifference.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 289</value>
-  </data>
-  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 23</value>
-  </data>
-  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnReset.Text" xml:space="preserve">
-    <value>Reset</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
-    <value>btnReset</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnSymmetricDifference.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 231</value>
-  </data>
-  <data name="btnSymmetricDifference.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 23</value>
-  </data>
-  <data name="btnSymmetricDifference.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnSymmetricDifference.Text" xml:space="preserve">
-    <value>Symmetric Difference</value>
-  </data>
-  <data name="&gt;&gt;btnSymmetricDifference.Name" xml:space="preserve">
-    <value>btnSymmetricDifference</value>
-  </data>
-  <data name="&gt;&gt;btnSymmetricDifference.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSymmetricDifference.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnSymmetricDifference.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btnSwap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 260</value>
-  </data>
-  <data name="btnSwap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 23</value>
-  </data>
-  <data name="btnSwap.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnSwap.Text" xml:space="preserve">
-    <value>Swap</value>
-  </data>
-  <data name="&gt;&gt;btnSwap.Name" xml:space="preserve">
-    <value>btnSwap</value>
-  </data>
-  <data name="&gt;&gt;btnSwap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSwap.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnSwap.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="lblSetAnswer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 40</value>
-  </data>
-  <data name="lblSetAnswer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 52</value>
-  </data>
-  <data name="lblSetAnswer.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lblSetAnswer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswer.Name" xml:space="preserve">
-    <value>lblSetAnswer</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswer.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblSetAnswerName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 17</value>
-  </data>
-  <data name="lblSetAnswerName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
-  </data>
-  <data name="lblSetAnswerName.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="lblSetAnswerName.Text" xml:space="preserve">
-    <value>Action</value>
-  </data>
-  <data name="lblSetAnswerName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswerName.Name" xml:space="preserve">
-    <value>lblSetAnswerName</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswerName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswerName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblSetAnswerName.ZOrder" xml:space="preserve">
+  <data name="txtBoxSet2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="btnRU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 318</value>
-  </data>
-  <data name="btnRU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnRU.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="btnRU.Text" xml:space="preserve">
-    <value>RU</value>
-  </data>
-  <data name="&gt;&gt;btnRU.Name" xml:space="preserve">
-    <value>btnRU</value>
-  </data>
-  <data name="&gt;&gt;btnRU.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRU.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnRU.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnENG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 318</value>
-  </data>
-  <data name="btnENG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnENG.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="btnENG.Text" xml:space="preserve">
-    <value>ENG</value>
-  </data>
-  <data name="&gt;&gt;btnENG.Name" xml:space="preserve">
-    <value>btnENG</value>
-  </data>
-  <data name="&gt;&gt;btnENG.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnENG.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnENG.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 100</value>
-  </data>
-  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 125</value>
-  </data>
-  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
   </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>Sets are entered with a space and correct input - any characters:
@@ -511,41 +443,109 @@
 a b c d e 1
 а б в a b c</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
-    <value>richTextBox1</value>
+  <data name="&gt;&gt;btnIntersection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 318</value>
+  </data>
+  <data name="btnENG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnSwap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 260</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnIntersection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 23</value>
+  </data>
+  <data name="&gt;&gt;txtBoxSet2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnENG.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 125</value>
+  </data>
+  <data name="&gt;&gt;lblSet2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDifference.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnSubSet.Text" xml:space="preserve">
+    <value>SubSet</value>
+  </data>
+  <data name="btnSymmetricDifference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 23</value>
+  </data>
+  <data name="txtBoxSet1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnENG.Text" xml:space="preserve">
+    <value>ENG</value>
   </data>
-  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;lblSet1.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;btnSwap.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnENG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 318</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswer.Name" xml:space="preserve">
+    <value>lblSetAnswer</value>
+  </data>
+  <data name="&gt;&gt;lblSetAnswerName.Name" xml:space="preserve">
+    <value>lblSetAnswerName</value>
+  </data>
+  <data name="&gt;&gt;btnSymmetricDifference.Name" xml:space="preserve">
+    <value>btnSymmetricDifference</value>
+  </data>
+  <data name="&gt;&gt;lblSet1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSet2.Name" xml:space="preserve">
+    <value>lblSet2</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>655, 346</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="lblSetAnswerName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Set | Karmazin Vlad FIT-3</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
+  <data name="&gt;&gt;txtBoxSet2.Name" xml:space="preserve">
+    <value>txtBoxSet2</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnUnion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnSwap.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnSymmetricDifference.Text" xml:space="preserve">
+    <value>Symmetric Difference</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
 </root>

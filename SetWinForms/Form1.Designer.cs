@@ -120,16 +120,16 @@
             // 
             // lblSetAnswer
             // 
+            resources.ApplyResources(this.lblSetAnswer, "lblSetAnswer");
             this.lblSetAnswer.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblSetAnswer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.lblSetAnswer, "lblSetAnswer");
             this.lblSetAnswer.Name = "lblSetAnswer";
             // 
             // lblSetAnswerName
             // 
+            resources.ApplyResources(this.lblSetAnswerName, "lblSetAnswerName");
             this.lblSetAnswerName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lblSetAnswerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.lblSetAnswerName, "lblSetAnswerName");
             this.lblSetAnswerName.Name = "lblSetAnswerName";
             // 
             // btnRU
@@ -148,9 +148,10 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.richTextBox1, "richTextBox1");
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             // 
             // Form1
             // 
