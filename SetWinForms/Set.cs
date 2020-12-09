@@ -24,16 +24,6 @@ namespace Set
             items.Add(item);
         }
 
-        ////Конструктор с добавлением массива элементов в множество
-        //public Set(T[] items)
-        //{
-        //    // Перебираем все элементы массива и заносим в множество
-        //    foreach (T item in items)
-        //    {
-        //        this.items.Add(item);
-        //    }
-        //}
-
         //Конструктор с добавлением элементов в множество с помощью перебора коллекции>
         public Set(IEnumerable<T> items)
         {
@@ -43,15 +33,6 @@ namespace Set
         //Операция добавления элемента в множество
         public void Add(T item)
         {
-            //// Проверяем есть ли такой элемент в нашем множестве
-            //foreach (var i in items)
-            //{
-            //    // Если есть, прерываем
-            //    if (i.Equals(item))
-            //    {
-            //        return;
-            //    }
-            //}
             if (Count >= 2000)
             {
                 throw new Exception("Слишком много элементов добавлено в множество, по заданию 2000 - максимум (хотя можно было и больше :) )");
@@ -137,12 +118,6 @@ namespace Set
         {
             // Результирующее множество
             Set<T> result = new Set<T>(items);
-            //Set<T> result = new Set<T>();
-            //// Создаем копию первого множества
-            //foreach (T item in items)
-            //{
-            //    result.Add(item);   
-            //}
 
             //Берем все элементы из второго множества
             foreach (T item in set.items)
